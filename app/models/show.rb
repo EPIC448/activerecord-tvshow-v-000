@@ -31,11 +31,12 @@ class Show < ActiveRecord::Base
 
 
   def self.popular_shows
-    binding.pry
+  
     self.where("rating > ? ", 5)
   end
 
   def self.shows_by_alphabetical_order
+
 
   end
 
